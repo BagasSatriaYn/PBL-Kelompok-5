@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poopins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poopins", sans-serif;
+}
+
+/* style1.css */
+
+/* Style for the main heading (h1) */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative; /* Menjadikan body sebagai konteks untuk posisi absolut */
+    overflow: hidden; /* Menghindari scroll bar */
+    background: rgb(137, 217, 244);
+}
+h1 {
+    font-size: 3em; /* Increase font size */
+    margin-bottom: 50px; /* Add space below the heading */
+    color: blue; 
+    text-align: left; 
+    margin-top: 200px;
+}
+
+/* Style for the subheading (h3) */
+h3 {
+    font-size: 1.5em; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    color: white; 
+    text-align: left; 
+}
+
+.background {
+    background-color: #33c3ff;
+}
